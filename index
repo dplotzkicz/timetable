@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Timetable - Wednesday Schedule</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 20px; background-color: #f4f4f9; }
+        h1 { text-align: center; color: #333; }
+        table { width: 100%; border-collapse: collapse; box-shadow: 0 2px 15px rgba(0,0,0,0.1); background-color: #fff; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; vertical-align: top; }
+        thead th { background-color: #28a745; color: white; position: sticky; top: 0; z-index: 2; }
+        tbody td:first-child { font-weight: bold; background-color: #f9f9f9; position: sticky; left: 0; z-index: 1; }
+        .class-list { font-size: 14px; line-height: 1.5; color: #555; }
+        .block-title { font-weight: bold; color: #333; margin-bottom: 8px; display: block; }
+    </style>
+</head>
+<body>
+    <h1>Master Timetable (Wednesday Schedule)</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Time Slot</th>
+                <th>M1</th>
+                <th>M2</th>
+                <th>M3</th>
+                <th>M4</th>
+                <th>M5</th>
+                <th>M6</th>
+                <th>M7</th>
+                <th>M8</th>
+                <th>M9</th>
+                <th>M10</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>9:35-10:30</td>
+                <td>
+                    <strong class="block-title">Block A</strong>
+                    <div class="class-list">
+                        MS Design 6.3 - Black-Storm, Christian - 19 (M: 8, F: 11)<br>
+                        MS Design 7.3 - Black-Storm, Christian - 22 (M: 16, F: 6)<br>
+                        MS Design 8.1 - Martin, Matthew - 22 (M: 11, F: 11)<br>
+                        MS EAL 6 - Brauchli, Gabriela - 10 (M: 6, F: 4)<br>
+                        MS French G7/8 3B - Harle, Helene - 9 (M: 3, F: 6)<br>
+                        MS German G6 - Mathews, William - 15 (M: 10, F: 5)<br>
+                        MS Individuals & Societies 6.2 - Riches, Jessica - 12 (M: 6, F: 6)<br>
+                        MS Individuals & Societies 7.4 - Wellner, John - 12 (M: 9, F: 3)<br>
+                        MS Language & Literature 6.1 - Snively, Jenny - 12 (M: 5, F: 7)<br>
+                        MS Language & Literature 7.3 - Little, Whitney - 12 (M: 8, F: 4)<br>
+                        MS Maths 6.2 - Schumacher, Lynelle - 13 (M: 6, F: 7)<br>
+                        MS Maths 8.5 - Thompson, Douglas - 12 (M: 8, F: 4)<br>
+                        MS Science 6.2 - Cormack, Bradley - 16 (M: 5, F: 11)<br>
+                        MS Science 7.1 - Demirel, Holli - 20 (M: 9, F: 11)<br>
+                        MS Science 8.5 - Foster, Aaron - 20 (M: 7, F: 13)<br>
+                        MS Visual Arts 7.3 - Dimitrov, Petr - 16 (M: 7, F: 9)
+                    </div>
+                </td>
+                <td>
+                    <strong class="block-title">Block F</strong>
+                    <div class="class-list">
+                        Electives-MS - None - 238 (M: 120, F: 118)<br>
+                        MS Design 6.2 - Martin, Matthew - 20 (M: 10, F: 10)<br>
+                        MS Design 7.1 - Black-Storm, Christian - 16 (M: 7, F: 9)<br>
+                        MS French G7/8 2 - Harle, Helene - 12 (M: 3, F: 9)<br>
+                        MS German 2 - Mathews, William - 14 (M: 6, F: 8)<br>
+                        MS Individuals & Societies 6.3 - Snively, Jenny - 19 (M: 8, F: 11)<br>
+                        MS Individuals & Societies 7.3 - Wellner, John - 12 (M: 8, F: 4)<br>
+                        MS Individuals & Societies 8.4 - Hayes, Matthew - 20 (M: 8, F: 12)<br>
+                        MS Language & Literature 6.4 - Riches, Jessica - 18 (M: 10, F: 8)<br>
+                        MS Language & Literature 7.4 - Little, Whitney - 12 (M: 9, F: 3)<br>
+                        MS Language & Literature 8.3 - Fisher, Paul - 18 (M: 11, F: 7)<br>
+                        MS Learning Support 7 - Schumacher, John - 4 (M: 3, F: 1)<br>
+                        MS Learning Support 8 - Voakes, Amy - 4 (M: 3, F: 1)<br>
+                        MS Maths 8.1 - Thompson, Douglas - 16 (M: 6, F: 10)<br>
+                        MS PHE 7.2 - Šilhavý, Michal - 17 (M: 11, F: 6)<br>
+                        MS Science 8.4 - Foster, Aaron - 16 (M: 8, F: 8)
+                    </div>
+                </td>
+                <td>
+                    <strong class="block-title">Block B</strong>
+                    <div class="class-list">
+                        Electives-MS - None - 238 (M: 120, F: 118)<br>
+                        MS French G7/8 2 - Harle, Helene - 12 (M: 3, F: 9)<br>
+                        MS German 2 - Mathews, William - 14 (M: 6, F: 8)<br>
+                        MS Individuals & Societies 6.1 - Snively, Jenny - 12 (M: 5, F: 7)<br>
+                        MS Individuals & Societies 7.3 - Wellner, John - 12 (M: 8, F: 4)<br>
+                        MS Individuals & Societies 8.4 - Hayes, Matthew - 20 (M: 8, F: 12)<br>
+                        MS Language & Literature 6.2 - Riches, Jessica - 12 (M: 6, F: 6)<br>
+                        MS Language & Literature 7.4 - Little, Whitney - 12 (M: 9, F: 3)<br>
+                        MS Language & Literature 8.3 - Fisher, Paul - 18 (M: 11, F: 7)<br>
+                        MS Learning Support 7 - Schumacher, John - 4 (M: 3, F: 1)<br>
+                        MS Learning Support 8 - Voakes, Amy - 4 (M: 3, F: 1)<br>
+                        MS Maths 6.5 - Schumacher, Lynelle - 16 (M: 9, F: 7)<br>
+                        MS Maths 8.1 - Thompson, Douglas - 16 (M: 6, F: 10)<br>
+                        MS PHE 7.1 - Šilhavý, Michal - 16 (M: 7, F: 9)<br>
+                        MS Science 6.5 - Cormack, Bradley - 20 (M: 11, F: 9)<br>
+                        MS Science 8.4 - Foster, Aaron - 16 (M: 8, F: 8)<br>
+                        MS Spanish G6 1.1 - Garza, Mariana - 18 (M: 7, F: 11)
+                    </div>
+                </td>
+                <td>
+                    <strong class="block-title">Block G</strong>
+                    <div class="class-list">
+                        MS Design 7.3 - Black-Storm, Christian - 22 (M: 16, F: 6)<br>
+                        MS Design 8.4 - Martin, Matthew - 21 (M: 10, F: 11)<br>
+                        MS EAL 7 - Esshaki, Sheila - 8 (M: 3, F: 5)<br>
+                        MS French G7/8 2 - Harle, Helene - 12 (M: 3, F: 9)<br>
+                        MS French G7/8 3A - Harle, Helene - 10 (M: 6, F: 4)<br>
+                        MS German 1/2 - Mathews, William - 15 (M: 12, F: 3)<br>
+                        MS German 2 - Mathews, William - 14 (M: 6, F: 8)<br>
+                        MS German 3 - Mathews, William - 13 (M: 5, F: 8)<br>
+                        MS Individuals & Societies 6.4 - Riches, Jessica - 18 (M: 10, F: 8)<br>
+                        MS Individuals & Societies 6.5 - Snively, Jenny - 17 (M: 9, F: 8)<br>
+                        MS Individuals & Societies 7.2 - Wellner, John - 20 (M: 11, F: 9)<br>
+                        MS Individuals & Societies 7.3 - Wellner, John - 12 (M: 8, F: 4)<br>
+                        MS Individuals & Societies 8.1 - Hayes, Matthew - 15 (M: 8, F: 7)<br>
+                        MS Individuals & Societies 8.4 - Hayes, Matthew - 20 (M: 8, F: 12)<br>
+                        MS Individuals & Societies 8.5 - Hayes, Matthew - 14 (M: 6, F: 8)<br>
+                        MS Language & Literature 6.3 - Snively, Jenny - 19 (M: 8, F: 11)<br>
+                        MS Language & Literature 6.5 - Riches, Jessica - 17 (M: 9, F: 8)<br>
+                        MS Language & Literature 7.1 - Little, Whitney - 14 (M: 5, F: 9)<br>
+                        MS Language & Literature 7.4 - Little, Whitney - 12 (M: 9, F: 3)<br>
+                        MS Language & Literature 7.5 - Little, Whitney - 19 (M: 11, F: 8)<br>
+                        MS Language & Literature 8.2 - Fisher, Paul - 16 (M: 5, F: 11)<br>
+                        MS Language & Literature 8.3 - Fisher, Paul - 18 (M: 11, F: 7)<br>
+                        MS Learning Support 7 - Schumacher, John - 4 (M: 3, F: 1)<br>
+                        MS Learning Support 8 - Voakes, Amy - 4 (M: 3, F: 1)<br>
+                        MS Maths 6.3 - Kuipers, Chyrelanne - 19 (M: 7, F: 12)<br>
+                        MS Maths 6.4 - Kuipers, Chyrelanne - 14 (M: 7, F: 7)<br>
+                        MS Maths 7.2 - Strickland, Alyssa - 14 (M: 8, F: 6)<br>
+                        MS Maths 7.4 - Strickland, Alyssa - 21 (M: 10, F: 11)<br>
+                        MS Maths 8.1 - Thompson, Douglas - 16 (M: 6, F: 10)<br>
+                        MS Maths 8.3 - Thompson, Douglas - 17 (M: 6, F: 11)<br>
+                        MS PHE 6.1 - Rabjohn, Sue - 20 (M: 10, F: 10)<br>
+                        MS PHE 6.2 - Rabjohn, Sue - 18 (M: 10, F: 8)<br>
+                        MS PHE 8.4 - Hill, Oliver - 18 (M: 6, F: 12)<br>
+                        MS Science 6.3 - Cormack, Bradley - 18 (M: 10, F: 8)<br>
+                        MS Science 6.4 - Cormack, Bradley - 10 (M: 4, F: 6)<br>
+                        MS Science 7.3 - Demirel, Holli - 13 (M: 10, F: 3)<br>
+                        MS Science 7.4 - Demirel, Holli - 16 (M: 9, F: 7)<br>
+                        MS Science 8.4 - Foster, Aaron - 16 (M: 8, F: 8)<br>
+                        MS Spanish G7/8 2B - Recio Trinidad, Carmen - 15 (M: 9, F: 6)<br>
+                        MS Spanish G7/8 3A - Recio Trinidad, Carmen - 10 (M: 7, F: 3)
+                    </div>
+                </td>
+                <td>
+                    <strong class="block-title">Block C</strong>
+                    <div class="class-list">
+                        MS Advisory 6 - A, A - 19 (M: 8, F: 11)<br>
+                        MS Design 7.2 - Martin, Matthew - 17 (M: 11, F: 6)<br>
+                        MS Design 8.3 - Black-Storm, Christian - 22 (M: 11, F: 11)<br>
+                        MS EAL 6 - Brauchli, Gabriela - 10 (M: 6, F: 4)<br>
+                        MS EAL 7 - Esshaki, Sheila - 8 (M: 3, F: 5)<br>
+                        MS French G7/8 3A - Harle, Helene - 10 (M: 6, F: 4)<br>
+                        MS French G7/8 3B - Harle, Helene - 9 (M: 3, F: 6)<br>
+                        MS German 1/2 - Mathews, William - 15 (M: 12, F: 3)<br>
+                        MS German 3 - Mathews, William - 13 (M: 5, F: 8)<br>
+                        MS German G6 - Mathews, William - 15 (M: 10, F: 5)<br>
+                        MS Individuals & Societies 6.1 - Snively, Jenny - 12 (M: 5, F: 7)<br>
+                        MS Individuals & Societies 6.2 - Riches, Jessica - 12 (M: 6, F: 6)<br>
+                        MS Individuals & Societies 6.5 - Snively, Jenny - 17 (M: 9, F: 8)<br>
+                        MS Individuals & Societies 7.2 - Wellner, John - 20 (M: 11, F: 9)<br>
+                        MS Individuals & Societies 7.4 - Wellner, John - 12 (M: 9, F: 3)<br>
+                        MS Individuals & Societies 8.1 - Hayes, Matthew - 15 (M: 8, F: 7)<br>
+                        MS Individuals & Societies 8.5 - Hayes, Matthew - 14 (M: 6, F: 8)<br>
+                        MS Language & Literature 6.1 - Snively, Jenny - 12 (M: 5, F: 7)<br>
+                        MS Language & Literature 6.2 - Riches, Jessica - 12 (M: 6, F: 6)<br>
+                        MS Language & Literature 6.3 - Snively, Jenny - 19 (M: 8, F: 11)<br>
+                        MS Language & Literature 7.1 - Little, Whitney - 14 (M: 5, F: 9)<br>
+                        MS Language & Literature 7.3 - Little, Whitney - 12 (M: 8, F: 4)<br>
+                        MS Language & Literature 7.5 - Little, Whitney - 19 (M: 11, F: 8)<br>
+                        MS Language & Literature 8.2 - Fisher, Paul - 16 (M: 5, F: 11)<br>
+                        MS Language & Literature 8.5 - Fisher, Paul - 14 (M: 6, F: 8)<br>
+                        MS Learning Support 6 - Voakes, Amy - 5 (M: 4, F: 1)<br>
+                        MS Maths 6.2 - Schumacher, Lynelle - 13 (M: 6, F: 7)<br>
+                        MS Maths 6.3 - Kuipers, Chyrelanne - 19 (M: 7, F: 12)<br>
+                        MS Maths 6.5 - Schumacher, Lynelle - 16 (M: 9, F: 7)<br>
+                        MS Maths 7.2 - Strickland, Alyssa - 14 (M: 8, F: 6)<br>
+                        MS Maths 7.3 - Strickland, Alyssa - 16 (M: 9, F: 7)<br>
+                        MS Maths 7.4 - Strickland, Alyssa - 21 (M: 10, F: 11)<br>
+                        MS Maths 8.3 - Thompson, Douglas - 17 (M: 6, F: 11)<br>
+                        MS Maths 8.4 - Thompson, Douglas - 18 (M: 11, F: 7)<br>
+                        MS Maths 8.5 - Thompson, Douglas - 12 (M: 8, F: 4)<br>
+                        MS PHE 8.3 - Šilhavý, Michal - 22 (M: 11, F: 11)<br>
+                        MS PHE 8.4 - Hill, Oliver - 18 (M: 6, F: 12)<br>
+                        MS Science 6.2 - Cormack, Bradley - 16 (M: 5, F: 11)<br>
+                        MS Science 6.3 - Cormack, Bradley - 18 (M: 10, F: 8)<br>
+                        MS Science 6.5 - Cormack, Bradley - 20 (M: 11, F: 9)<br>
+                        MS Science 7.1 - Demirel, Holli - 20 (M: 9, F: 11)<br>
+                        MS Science 7.3 - Demirel, Holli - 13 (M: 10, F: 3)<br>
+                        MS Science 7.5 - Demirel, Holli - 17 (M: 9, F: 8)<br>
+                        MS Science 8.2 - Foster, Aaron - 20 (M: 8, F: 12)<br>
+                        MS Science 8.5 - Foster, Aaron - 20 (M: 7, F: 13)<br>
+                        MS Spanish G6 1.1 - Garza, Mariana - 18 (M: 7, F: 11)<br>
+                        MS Spanish G6 1.2 - Garza, Mariana - 19 (M: 8, F: 11)<br>
+                        MS Spanish G7/8 2B - Recio Trinidad, Carmen - 15 (M: 9, F: 6)<br>
+                        MS Spanish G7/8 3A - Recio Trinidad, Carmen - 10 (M: 7, F: 3)<br>
+                        MS Spanish G7/8 3B - Recio Trinidad, Carmen - 8 (M: 3, F: 5)<br>
+                        MS Spanish G7/8 4 - Garza, Mariana - 10 (M: 5, F: 5)<br>
+                        MS Visual Arts 7.3 - Dimitrov, Petr - 16 (M: 7, F: 9)
+                    </div>
+                </td>
+                <td>
+                    <strong class="block-title">Block H</strong>
+                    <div class="class-list">
+                        MS Design 7.2 - Martin, Matthew - 17 (M: 11, F: 6)<br>
+                        MS Design 8.4 - Martin, Matthew - 21 (M: 10, F: 11)<br>
+                        MS EAL 6 - Brauchli, Gabriela - 10 (M: 6, F: 4)<br>
+                        MS EAL 7 - Esshaki, Sheila - 8 (M: 3, F: 5)<br>
+                        MS French G7/8 3A - Harle, Helene - 10 (M: 6, F: 4)<br>
+                        MS French G7/8 3B - Harle, Helene - 9 (M: 3, F: 6)<br>
+                        MS German G6 - Mathews, William - 15 (M: 10, F: 5)<br>
+                        MS Individuals & Societies 6.1 - Snively, Jenny - 12 (M: 5, F: 7)<br>
+                        MS Individuals & Societies 8.5 - Hayes, Matthew - 14 (M: 6, F: 8)<br>
+                        MS Language & Literature 6.2 - Riches, Jessica - 12 (M: 6, F: 6)<br>
+                        MS Language & Literature 7.5 - Little, Whitney - 19 (M: 11, F: 8)<br>
+                        MS Maths 6.5 - Schumacher, Lynelle - 16 (M: 9, F: 7)<br>
+                        MS Maths 7.4 - Strickland, Alyssa - 21 (M: 10, F: 11)<br>
+                        MS Maths 8.3 - Thompson, Douglas - 17 (M: 6, F: 11)<br>
+                        MS PHE 8.1 - Hill, Oliver - 21 (M: 10, F: 11)<br>
+                        MS PHE 8.3 - Šilhavý, Michal - 22 (M: 11, F: 11)<br>
+                        MS Science 6.5 - Cormack, Bradley - 20 (M: 11, F: 9)<br>
+                        MS Science 7.3 - Demirel, Holli - 13 (M: 10, F: 3)<br>
+                        MS Spanish G6 1.1 - Garza, Mariana - 18 (M: 7, F: 11)<br>
+                        MS Spanish G7/8 2B - Recio Trinidad, Carmen - 15 (M: 9, F: 6)
+                    </div>
+                </td>
+                <td>
+                    <strong class="block-title">Block D</strong>
+                    <div class="class-list">
+                        MS Design 6.2 - Martin, Matthew - 20 (M: 10, F: 10)<br>
+                        MS Design 8.2 - Black-Storm, Christian - 18 (M: 6, F: 12)<br>
+                        MS EAL 8 - Carpenter, Gwen - 10 (M: 5, F: 5)<br>
+                        MS French G7/8 2 - Harle, Helene - 12 (M: 3, F: 9)<br>
+                        MS German 1/2 - Mathews, William - 15 (M: 12, F: 3)<br>
+                        MS German 2 - Mathews, William - 14 (M: 6, F: 8)<br>
+                        MS Individuals & Societies 6.1 - Snively, Jenny - 12 (M: 5, F: 7)<br>
+                        MS Individuals & Societies 6.4 - Riches, Jessica - 18 (M: 10, F: 8)<br>
+                        MS Individuals & Societies 6.5 - Snively, Jenny - 17 (M: 9, F: 8)<br>
+                        MS Individuals & Societies 7.2 - Wellner, John - 20 (M: 11, F: 9)<br>
+                        MS Individuals & Societies 7.3 - Wellner, John - 12 (M: 8, F: 4)<br>
+                        MS Individuals & Societies 8.1 - Hayes, Matthew - 15 (M: 8, F: 7)<br>
+                        MS Individuals & Societies 8.4 - Hayes, Matthew - 20 (M: 8, F: 12)<br>
+                        MS Language & Literature 6.2 - Riches, Jessica - 12 (M: 6, F: 6)<br>
+                        MS Language & Literature 6.3 - Snively, Jenny - 19 (M: 8, F: 11)<br>
+                        MS Language & Literature 7.1 - Little, Whitney - 14 (M: 5, F: 9)<br>
+                        MS Language & Literature 7.4 - Little, Whitney - 12 (M: 9, F: 3)<br>
+                        MS Language & Literature 8.2 - Fisher, Paul - 16 (M: 5, F: 11)<br>
+                        MS Language & Literature 8.3 - Fisher, Paul - 18 (M: 11, F: 7)<br>
+                        MS Language & Literature 8.4 - Fisher, Paul - 20 (M: 8, F: 12)<br>
+                        MS Learning Support 6 - Voakes, Amy - 5 (M: 4, F: 1)<br>
+                        MS Learning Support 7 - Schumacher, John - 4 (M: 3, F: 1)<br>
+                        MS Learning Support 8 - Voakes, Amy - 4 (M: 3, F: 1)<br>
+                        MS Maths 6.3 - Kuipers, Chyrelanne - 19 (M: 7, F: 12)<br>
+                        MS Maths 6.5 - Schumacher, Lynelle - 16 (M: 9, F: 7)<br>
+                        MS Maths 7.2 - Strickland, Alyssa - 14 (M: 8, F: 6)<br>
+                        MS Maths 8.1 - Thompson, Douglas - 16 (M: 6, F: 10)<br>
+                        MS Maths 8.2 - Thompson, Douglas - 20 (M: 7, F: 13)<br>
+                        MS PHE 6.4 - Rabjohn, Sue - 21 (M: 10, F: 11)<br>
+                        MS PHE 7.4 - Šilhavý, Michal - 22 (M: 10, F: 12)<br>
+                        MS PHE 8.2 - Hill, Oliver - 22 (M: 11, F: 11)<br>
+                        MS Science 6.3 - Cormack, Bradley - 18 (M: 10, F: 8)<br>
+                        MS Science 7.4 - Demirel, Holli - 16 (M: 9, F: 7)<br>
+                        MS Science 8.1 - Foster, Aaron - 15 (M: 7, F: 8)<br>
+                        MS Science 8.4 - Foster, Aaron - 16 (M: 8, F: 8)<br>
+                        MS Spanish G6 1.2 - Garza, Mariana - 19 (M: 8, F: 11)<br>
+                        MS Spanish G7/8 3A - Recio Trinidad, Carmen - 10 (M: 7, F: 3)
+                    </div>
+                </td>
+                <td>
+                    <strong class="block-title">Block I</strong>
+                    <div class="class-list">
+                        MS Design 6.2 - Martin, Matthew - 20 (M: 10, F: 10)<br>
+                        MS Design 6.4 - Martin, Matthew - 18 (M: 10, F: 8)<br>
+                        MS Design 7.4 - Martin, Matthew - 22 (M: 10, F: 12)<br>
+                        MS Design 8.2 - Black-Storm, Christian - 18 (M: 6, F: 12)<br>
+                        MS EAL 8 - Carpenter, Gwen - 10 (M: 5, F: 5)<br>
+                        MS French 2 - Harle, Helene - 12 (M: 3, F: 9)<br>
+                        MS French G6 - Harle, Helene - 11 (M: 3, F: 8)<br>
+                        MS German 1/2 - Mathews, William - 15 (M: 12, F: 3)<br>
+                        MS German 2 - Mathews, William - 14 (M: 6, F: 8)<br>
+                        MS Individuals & Societies 6.1 - Snively, Jenny - 12 (M: 5, F: 7)<br>
+                        MS Individuals & Societies 6.4 - Riches, Jessica - 18 (M: 10, F: 8)<br>
+                        MS Individuals & Societies 6.5 - Snively, Jenny - 17 (M: 9, F: 8)<br>
+                        MS Individuals & Societies 7.1 - Wellner, John - 14 (M: 5, F: 9)<br>
+                        MS Individuals & Societies 7.2 - Wellner, John - 20 (M: 11, F: 9)<br>
+                        MS Individuals & Societies 7.3 - Wellner, John - 12 (M: 8, F: 4)<br>
+                        MS Individuals & Societies 7.5 - Wellner, John - 19 (M: 11, F: 8)<br>
+                        MS Individuals & Societies 8.1 - Hayes, Matthew - 15 (M: 8, F: 7)<br>
+                        MS Individuals & Societies 8.2 - Hayes, Matthew - 16 (M: 5, F: 11)<br>
+                        MS Individuals & Societies 8.3 - Hayes, Matthew - 18 (M: 11, F: 7)<br>
+                        MS Individuals & Societies 8.4 - Hayes, Matthew - 20 (M: 8, F: 12)<br>
+                        MS Language & Literature 6.2 - Riches, Jessica - 12 (M: 6, F: 6)<br>
+                        MS Language & Literature 6.3 - Snively, Jenny - 19 (M: 8, F: 11)<br>
+                        MS Language & Literature 7.1 - Little, Whitney - 14 (M: 5, F: 9)<br>
+                        MS Language & Literature 7.2 - Little, Whitney - 20 (M: 11, F: 9)<br>
+                        MS Language & Literature 7.4 - Little, Whitney - 12 (M: 9, F: 3)<br>
+                        MS Language & Literature 8.1 - Fisher, Paul - 15 (M: 8, F: 7)<br>
+                        MS Language & Literature 8.2 - Fisher, Paul - 16 (M: 5, F: 11)<br>
+                        MS Language & Literature 8.3 - Fisher, Paul - 18 (M: 11, F: 7)<br>
+                        MS Language & Literature 8.4 - Fisher, Paul - 20 (M: 8, F: 12)<br>
+                        MS Learning Support 6 - Voakes, Amy - 5 (M: 4, F: 1)<br>
+                        MS Learning Support 7 - Schumacher, John - 4 (M: 3, F: 1)<br>
+                        MS Learning Support 8 - Voakes, Amy - 4 (M: 3, F: 1)<br>
+                        MS Maths 6.1 - Kuipers, Chyrelanne - 16 (M: 9, F: 7)<br>
+                        MS Maths 6.3 - Kuipers, Chyrelanne - 19 (M: 7, F: 12)<br>
+                        MS Maths 6.5 - Schumacher, Lynelle - 16 (M: 9, F: 7)<br>
+                        MS Maths 7.1 - Strickland, Alyssa - 12 (M: 10, F: 2)<br>
+                        MS Maths 7.5 - Strickland, Alyssa - 14 (M: 7, F: 7)<br>
+                        MS Maths 8.1 - Thompson, Douglas - 16 (M: 6, F: 10)<br>
+                        MS Maths 8.2 - Thompson, Douglas - 20 (M: 7, F: 13)<br>
+                        MS English B 8.1 - Carpenter, Gwen - 7 (M: 4, F: 3)<br>
+                        MS PHE 6.3 - Rabjohn, Sue - 19 (M: 8, F: 11)<br>
+                        MS PHE 8.4 - Hill, Oliver - 18 (M: 6, F: 12)<br>
+                        MS Science 6.1 - Cormack, Bradley - 14 (M: 8, F: 6)<br>
+                        MS Science 6.3 - Cormack, Bradley - 18 (M: 10, F: 8)<br>
+                        MS Science 6.5 - Cormack, Bradley - 20 (M: 11, F: 9)<br>
+                        MS Science 7.2 - Demirel, Holli - 11 (M: 7, F: 4)<br>
+                        MS Science 8.3 - Foster, Aaron - 12 (M: 8, F: 4)<br>
+                        MS Science 8.4 - Foster, Aaron - 16 (M: 8, F: 8)<br>
+                        MS Spanish G6 1.1 - Garza, Mariana - 18 (M: 7, F: 11)<br>
+                        MS Spanish G6 1.2 - Garza, Mariana - 19 (M: 8, F: 11)<br>
+                        MS Spanish G7/8 2A - Garza, Mariana - 20 (M: 11, F: 9)<br>
+                        MS Visual Arts 7.1 - Dimitrov, Petr - 17 (M: 11, F: 6)
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>10:40-11:35</td>
+                <td>
+                    <strong class="block-title">Block B</strong>
+                    <div class="class-list">
+                        Electives-MS - None - 238 (M: 120, F: 118)<br>
+                        MS French G7/8 2 - Harle, Helene - 12 (M: 3, F: 9)<br>
+                        MS German 2 - Mathews, William - 14 (M: 6, F: 8)<br>
+                        MS Individuals & Societies 6.1 - Snively, Jenny - 12 (M: 5, F: 7)<br>
+                        MS Individuals & Societies 7.3 - Wellner, John - 12 (M: 8, F: 4)<br>
+                        MS Individuals & Societies 8.4 - Hayes, Matthew - 20 (M: 8, F: 12)<br>
+                        MS Language & Literature 6.2 - Riches, Jessica - 12 (M: 6, F: 6)<br>
+                        MS Language & Literature 7.4 - Little, Whitney - 12 (M: 9, F: 3)<br>
+                        MS Language & Literature 8.3 - Fisher, Paul - 18 (M: 11, F: 7)<br>
+                        MS Learning Support 7 - Schumacher, John - 4 (M: 3, F: 1)<br>
+                        MS Learning Support 8 - Voakes, Amy - 4 (M: 3, F: 1)<br>
+                        MS Maths 6.5 - Schumacher, Lynelle - 16 (M: 9, F: 7)<br>
+                        MS Maths 8.1 - Thompson, Douglas - 16 (M: 6, F: 10)<br>
+                        MS PHE 7.1 - Šilhavý, Michal - 16 (M: 7, F: 9)<br>
+                        MS Science 6.5 - Cormack, Bradley - 20 (M: 11, F: 9)<br>
+                        MS Science 8.4 - Foster, Aaron - 16 (M: 8, F: 8)<br>
+                        MS Spanish G6 1.1 - Garza, Mariana - 18 (M: 7, F: 11)
+                    </div>
+                </td>
+                <td>
+                    <strong class="block-title">Block G</strong>
+                    <div class="class-list">
+                        MS Design 7.3 - Black-Storm, Christian - 22 (M: 16, F: 6)<br>
+                        MS Design 8.4 - Martin, Matthew - 21 (M: 10, F: 11)<br>
+                        MS EAL 7 - Esshaki, Sheila - 8 (M: 3, F: 5)<br>
+                        MS French G7/8 2 - Harle, Helene - 12 (M: 3, F: 9)<br>
+                        MS French G7/8 3A - Harle, Helene - 10 (M: 6, F: 4)<br>
+                        MS German 1/2 - Mathews, William - 15 (M: 12, F: 3)<br>
+                        MS German 2 - Mathews, William - 14 (M: 6, F: 8)<br>
+                        MS German 3 - Mathews, William - 13 (M: 5, F: 8)<br>
+                        MS Individuals & Societies 6.4 - Riches, Jessica - 18 (M: 10, F: 8)<br>
+                        MS Individuals & Societies 6.5 - Snively, Jenny - 17 (M: 9, F: 8)<br>
+                        MS Individuals & Societies 7.2 - Wellner, John - 20 (M: 11, F: 9)<br>
+                        MS Individuals & Societies 7.3 - Wellner, John - 12 (M: 8, F: 4)<br>
+                        MS Individuals & Societies 8.1 - Hayes, Matthew - 15 (M: 8, F: 7)<br>
+                        MS Individuals & Societies 8.4 - Hayes, Matthew - 20 (M: 8, F: 12)<br>
+                        MS Individuals & Societies 8.5 - Hayes, Matthew - 14 (M: 6, F: 8)<br>
+                        MS Language & Literature 6.3 - Snively, Jenny - 19 (M: 8, F: 11)<br>
+                        MS Language & Literature 6.5 - Riches, Jessica - 17 (M: 9, F: 8)<br>
+                        MS Language & Literature 7.1 - Little, Whitney - 14 (M: 5, F: 9)<br>
+                        MS Language & Literature 7.4 - Little, Whitney - 12 (M: 9, F: 3)<br>
+                        MS Language & Literature 7.5 - Little, Whitney - 19 (M: 11, F: 8)<br>
+                        MS Language & Literature 8.2 - Fisher, Paul - 16 (M: 5, F: 11)<br>
+                        MS Language & Literature 8.3 - Fisher, Paul - 18 (M: 11, F: 7)<br>
+                        MS Learning Support 7 - Schumacher, John - 4 (M: 3, F: 1)<br>
+                        MS Learning Support 8 - Voakes, Amy - 4 (M: 3, F: 1)<br>
+                        MS Maths 6.3 - Kuipers, Chyrelanne - 19 (M: 7, F: 12)<br>
+                        MS Maths 6.4 - Kuipers, Chyrelanne - 14 (M: 7, F: 7)<br>
+                        MS Maths 7.2 - Strickland, Alyssa - 14 (M: 8, F: 6)<br>
+                        MS Maths 7.4 - Strickland, Alyssa - 21 (M: 10, F: 11)<br>
+                        MS Maths 8.1 - Thompson, Douglas - 16 (M: 6, F: 10)<br>
+                        MS Maths 8.3 - Thompson, Douglas - 17 (M: 6, F: 11)<br>
+                        MS PHE 6.1 - Rabjohn, Sue - 20 (M: 10, F: 10)<br>
+                        MS PHE 6.2 - Rabjohn, Sue - 18 (M: 10, F: 8)<br>
+                        MS PHE 8.4 - Hill, Oliver - 18 (M: 6, F: 12)<br>
+                        MS Science 6.3 - Cormack, Bradley - 18 (M: 10, F: 8)<br>
+                        MS Science 6.4 - Cormack, Bradley - 10 (M: 4, F: 6)<br>
+                        MS Science 7.3 - Demirel, Holli - 13 (M: 10, F: 3)<br>
+                        MS Science 7.4 - Demirel, Holli - 16 (M: 9, F: 7)<br>
+                        MS Science 8.4 - Foster, Aaron - 16 (M: 8, F: 8)<br>
+                        MS Spanish G7/8 2B - Recio Trinidad, Carmen - 15 (M: 9, F: 6)<br>
+                        MS Spanish G7/8 3A - Recio Trinidad, Carmen - 10 (M: 7, F: 3)
+                    </div>
+                </td>
+                <td>
+                    <strong class="block-title">Block C</strong>
+                    <div class="class-list">
+                        MS Advisory 6 - A, A - 19 (M: 8, F: 11)<br>
+                        MS Design 7.2 - Martin, Matthew - 17 (M: 11, F: 6)<br>
+                        MS Design 8.3 - Black-Storm, Christian - 22 (M: 11, F: 11)<br>
+                        MS EAL 6 - Brauchli, Gabriela - 10 (M: 6, F: 4)<br>
+                        MS EAL 7 - Esshaki, Sheila - 8 (M: 3, F: 5)<br>
+                        MS French G7/8 3A - Harle, Helene - 10 (M: 6, F: 4)<br>
+                        MS French G7/8 3B - Harle, Helene - 9 (M: 3, F: 6)<br>
+                        MS German 1/2 - Mathews, William - 15 (M: 12, F: 3)<br>
+                        MS German 3 - Mathews, William - 13 (M: 5, F: 8)<br>
+                        MS German G6 - Mathews, William - 15 (M: 10, F: 5)<br>
+                        MS Individuals & Societies 6.1 - Snively, Jenny - 12 (M: 5, F: 7)<br>
+                        MS Individuals & Societies 6.2 - Riches, Jessica - 12 (M: 6, F: 6)<br>
+                        MS Individuals & Societies 6.5 - Snively, Jenny - 17 (M: 9, F: 8)<br>
+                        MS Individuals & Societies 7.2 - Wellner, John - 20 (M: 11, F: 9)<br>
+                        MS Individuals & Societies 7.4 - Wellner, John - 12 (M: 9, F: 3)<br>
+                        MS Individuals & Societies 8.1 - Hayes, Matthew - 15 (M: 8, F: 7)<br>
+                        MS Individuals & Societies 8.5 - Hayes, Matthew - 14 (M: 6, F: 8)<br>
+                        MS Language & Literature 6.1 - Snively, Jenny - 12 (M: 5, F: 7)<br>
+                        MS Language & Literature 6.2 - Riches, Jessica - 12 (M: 6, F: 6)<br>
+                        MS Language & Literature 6.3 - Snively, Jenny - 19 (M: 8, F: 11)<br>
+                        MS Language & Literature 7.1 - Little, Whitney - 14 (M: 5, F: 9)<br>
+                        MS Language & Literature 7.3 - Little, Whitney - 12 (M: 8, F: 4)<br>
+                        MS Language & Literature 7.5 - Little, Whitney - 19 (M: 11, F: 8)<br>
+                        MS Language & Literature 8.2 - Fisher, Paul - 16 (M: 5, F: 11)<br>
+                        MS Language & Literature 8.5 - Fisher, Paul - 14 (M: 6, F: 8)<br>
+                        MS Learning Support 6 - Voakes, Amy - 5 (M: 4, F: 1)<br>
+                        MS Maths 6.2 - Schumacher, Lynelle - 13 (M: 6, F: 7)<br>
+                        MS Maths 6.3 - Kuipers, Chyrelanne - 19 (M: 7, F: 12)<br>
+                        MS Maths 6.5 - Schumacher, Lynelle - 16 (M: 9, F: 7)<br>
+                        MS Maths 7.2 - Strickland, Alyssa - 14 (M: 8, F: 6)<br>
+                        MS Maths 7.3 - Strickland, Alyssa - 16 (M: 9, F: 7)<br>
+                        MS Maths 7.4 - Strickland, Alyssa - 21 (M: 10, F: 11)<br>
+                        MS Maths 8.3 - Thompson, Douglas - 17 (M: 6, F: 11)<br>
+                        MS Maths 8.4 - Thompson, Douglas - 18 (M: 11, F: 7)<br>
+                        MS Maths 8.5 - Thompson, Douglas - 12 (M: 8, F: 4)<br>
+                        MS PHE 8.3 - Šilhavý, Michal - 22 (M: 11, F: 11)<br>
+                        MS PHE 8.4 - Hill, Oliver - 18 (M: 6, F: 12)<br>
+                        MS Science 6.2 - Cormack, Bradley - 16 (M: 5, F: 11)<br>
+                        MS Science 6.3 - Cormack, Bradley - 18 (M: 10, F: 8)<br>
+                        MS Science 6.5 - Cormack, Bradley - 20 (M: 11, F: 9)<br>
+                        MS Science 7.1 - Demirel, Holli - 20 (M: 9, F: 11)<br>
+                        MS Science 7.3 - Demirel, Holli - 13 (M: 10, F: 3)<br>
+                        MS Science 7.5 - Demirel, Holli - 17 (M: 9, F: 8)<br>
+                        MS Science 8.2 - Foster, Aaron - 20 (M: 8, F: 12)<br>
+                        MS Science 8.5 - Foster, Aaron - 20 (M: 7, F: 13)<br>
+                        MS Spanish G6 1.1 - Garza, Mariana - 18 (M: 7, F: 11)<br>
+                        MS Spanish G6 1.2 - Garza, Mariana - 19 (M: 8, F: 11)<br>
+                        MS Spanish G7/8 2B - Recio Trinidad, Carmen - 15 (M: 9, F: 6)<br>
+                        MS Spanish G7/8 3A - Recio Trinidad, Carmen - 10 (M: 7, F: 3)<br>
+                        MS Spanish G7/8 3B - Recio Trinidad, Carmen - 8 (M: 3, F: 5)<br>
+                        MS Spanish G7/8 4 - Garza, Mariana - 10 (M: 5, F: 5)<br>
+                        MS Visual Arts 7.3 - Dimitrov, Petr - 16 (M: 7, F: 9)
+                    </div>
+                </td>
+                <td>
+                    <strong class="block-title">Block H</strong>
+                    <div class="class-list">
+                        MS Design 7.2 - Martin, Matthew - 17 (M: 11, F: 6)<br>
+                        MS Design 8.4 - Martin, Matthew - 21 (M: 10, F: 11)<br>
+                        MS EAL 6 - Brauchli, Gabriela - 10 (M: 6, F: 4)<br>
+                        MS EAL 7 - Esshaki, Sheila - 8 (M: 3, F: 5)<br>
+                        MS French G7/8 3A - Harle, Helene - 10 (M: 6, F: 4)<br>
+                        MS French G7/8 3B - Harle, Helene - 9 (M: 3, F: 6)<br>
+                        MS German G6 - Mathews, William - 15 (M: 10, F: 5)<br>
+                        MS Individuals & Societies 6.1 - Snively, Jenny - 12 (M: 5, F: 7)<br>
+                        MS Individuals & Societies 8.5 - Hayes, Matthew - 14 (M: 6, F: 8)<br>
+                        MS Language & Literature 6.2 - Riches, Jessica - 12 (M: 6, F: 6)<br>
+                        MS Language & Literature 7.5 - Little, Whitney - 19 (M: 11, F: 8)<br>
+                        MS Maths 6.5 - Schumacher, Lynelle - 16 (M: 9, F: 7)<br>
+                        MS Maths 7.4 - Strickland, Alyssa - 21 (M: 10, F: 11)<br>
+                        MS Maths 8.3 - Thompson, Douglas - 17 (M: 6, F: 11)<br>
+                        MS PHE 8.1 - Hill, Oliver - 21 (M: 10, F: 11)<br>
+                        MS PHE 8.3 - Šilhavý, Michal - 22 (M: 11, F: 11)<br>
+                        MS Science 6.5 - Cormack, Bradley - 20 (M: 11, F: 9)<br>
+                        MS Science 7.3 - Demirel, Holli - 13 (M: 10, F: 3)<br>
+                        MS Spanish G6 1.1 - Garza, Mariana - 18 (M: 7, F: 11)<br>
+                        MS Spanish G7/8 2B - Recio Trinidad, Carmen - 15 (M: 9, F: 6)
+                    </div>
+                </td>
+                <td>
+                    <strong class="block-title">Block D</strong>
+                    <div class="class-list">
+                        MS Design 6.2 - Martin, Matthew - 20 (M: 10, F: 10)<br>
+                        MS Design 8.2 - Black-Storm, Christian - 18 (M: 6, F: 12)<br>
+                        MS EAL 8 - Carpenter, Gwen - 10 (M: 5, F: 5)<br>
+                        MS French G7/8 2 - Harle, Helene - 12 (M: 3, F: 9)<br>
+                        MS German 1/2 - Mathews, William - 15 (M: 12, F: 3)<br>
+                        MS German 2 - Mathews, William - 14 (M: 6, F: 8)<br>
+                        MS Individuals & Societies 6.1 - Snively, Jenny - 12 (M: 5, F: 7)<br>
+                        MS Individuals & Societies 6.4 - Riches, Jessica - 18 (M: 10, F: 8)<br>
+                        MS Individuals & Societies 6.5 - Snively, Jenny - 17 (M: 9, F: 8)<br>
+                        MS Individuals & Societies 7.2 - Wellner, John - 20 (M: 11, F: 9)<br>
+                        MS Individuals & Societies 7.3 - Wellner, John - 12 (M: 8, F: 4)<br>
+                        MS Individuals & Societies 8.1 - Hayes, Matthew - 15 (M: 8, F: 7)<br>
+                        MS Individuals & Societies 8.4 - Hayes, Matthew - 20 (M: 8, F: 12)<br>
+                        MS Language & Literature 6.2 - Riches, Jessica - 12 (M: 6, F: 6)<br>
+                        MS Language & Literature 6.3 - Snively, Jenny - 19 (M: 8, F: 11)<br>
+                        MS Language & Literature 7.1 - Little, Whitney - 14 (M: 5, F: 9)<br>
+                        MS Language & Literature 7.4 - Little, Whitney - 12 (M: 9, F: 3)<br>
+                        MS Language & Literature 8.2 - Fisher, Paul - 16 (M: 5, F: 11)<br>
+                        MS Language & Literature 8.3 - Fisher, Paul - 18 (M: 11, F: 7)<br>
+                        MS Language & Literature 8.4 - Fisher, Paul - 20 (M: 8, F: 12)<br>
+                        MS Learning Support 6 - Voakes, Amy - 5 (M: 4, F: 1)<br>
+                        MS Learning Support 7 - Schumacher, John - 4 (M: 3, F: 1)<br>
+                        MS Learning Support 8 - Voakes, Amy - 4 (M: 3, F: 1)<br>
+                        MS Maths 6.3 - Kuipers, Chyrelanne - 19 (M: 7, F: 12)<br>
+                        MS Maths 6.5 - Schumacher, Lynelle - 16 (M: 9, F: 7)<br>
+                        MS Maths 7.2 - Strickland, Alyssa - 14 (M: 8, F: 6)<br>
+                        MS Maths 8.1 - Thompson, Douglas - 16 (M: 6, F: 10)<br>
+                        MS Maths 8.2 - Thompson, Douglas - 20 (M: 7, F: 13)<br>
+                        MS PHE 6.4 - Rabjohn, Sue - 21 (M: 10, F: 11)<br>
+                        MS PHE 7.4 - Šilhavý, Michal - 22 (M: 10, F: 12)<br>
+                        MS PHE 8.2 - Hill, Oliver - 22 (M: 11, F: 11)<br>
+                        MS Science 6.3 - Cormack, Bradley - 18 (M: 10, F: 8)<br>
+                        MS Science 7.4 - Demirel, Holli - 16 (M: 9, F: 7)<br>
+                        MS Science 8.1 - Foster, Aaron - 15 (M: 7, F: 8)<br>
+                        MS Science 8.4 - Foster, Aaron - 16 (M: 8, F: 8)<br>
+                        MS Spanish G6 1.2 - Garza, Mariana - 19 (M: 8, F: 11)<br>
+                        MS Spanish G7/8 3A - Recio Trinidad, Carmen - 10 (M: 7, F: 3)
+                    </div>
+                </td>
+                <td>
+                    <strong class="block-title">Block I</strong>
+                    <div class="class-list">
+                        MS Design 6.2 - Martin, Matthew - 20 (M: 10, F: 10)<br>
+                        MS Design 6.4 - Martin, Matthew - 18 (M: 10, F: 8)<br>
+                        MS Design 7.4 - Martin, Matthew - 22 (M: 10, F: 12)<br>
+                        MS Design 8.2 - Black-Storm, Christian - 18 (M: 6, F: 12)<br>
+                        MS EAL 8 - Carpenter, Gwen - 10 (M: 5, F: 5)<br>
+                        MS French 2 - Harle, Helene - 12 (M: 3, F: 9)<br>
+                        MS French G6 - Harle, Helene - 11 (M: 3, F: 8)<br>
+                        MS German 1/2 - Mathews, William - 15 (M: 12, F: 3)<br>
+                        MS German 2 - Mathews, William - 14 (M: 6, F: 8)<br>
+                        MS Individuals & Societies 6.1 - Snively, Jenny - 12 (M: 5, F: 7)<br>
+                        MS Individuals & Societies 6.4 - Riches, Jessica - 18 (M: 10, F: 8)<br>
+                        MS Individuals & Societies 6.5 - Snively, Jenny - 17 (M: 9, F: 8)<br>
+                        MS Individuals & Societies 7.1 - Wellner, John - 14 (M: 5, F: 9)<br>
+                        MS Individuals & Societies 7.2 - Wellner, John - 20 (M: 11, F: 9)<br>
+                        MS Individuals & Societies 7.3 - Wellner, John - 12 (M: 8, F: 4)<br>
+                        MS Individuals & Societies 7.5 - Wellner, John - 19 (M: 11, F: 8)<br>
+                        MS Individuals & Societies 8.1 - Hayes, Matthew - 15 (M: 8, F: 7)<br>
+                        MS Individuals & Societies 8.2 - Hayes, Matthew - 16 (M: 5, F: 11)<br>
+                        MS Individuals & Societies 8.3 - Hayes, Matthew - 18 (M: 11, F: 7)<br>
+                        MS Individuals & Societies 8.4 - Hayes, Matthew - 20 (M: 8, F: 12)<br>
+                        MS Language & Literature 6.2 - Riches, Jessica - 12 (M: 6, F: 6)<br>
+                        MS Language & Literature 6.3 - Snively, Jenny - 19 (M: 8, F: 11)<br>
+                        MS Language & Literature 7.1 - Little, Whitney - 14 (M: 5, F: 9)<br>
+                        MS Language & Literature 7.2 - Little, Whitney - 20 (M: 11, F: 9)<br>
+                        MS Language & Literature 7.4 - Little, Whitney - 12 (M: 9, F: 3)<br>
+                        MS Language & Literature 8.1 - Fisher, Paul - 15 (M: 8, F: 7)<br>
+                        MS Language & Literature 8.2 - Fisher, Paul - 16 (M: 5, F: 11)<br>
+                        MS Language & Literature 8.3 - Fisher, Paul - 18 (M: 11, F: 7)<br>
+                        MS Language & Literature 8.4 - Fisher, Paul - 20 (M: 8, F: 12)<br>
+                        MS Learning Support 6 - Voakes, Amy - 5 (M: 4, F: 1)<br>
+                        MS Learning Support 7 - Schumacher, John - 4 (M: 3, F: 1)<br>
+                        MS Learning Support 8 - Voakes, Amy - 4 (M: 3, F: 1)<br>
+                        MS Maths 6.1 - Kuipers, Chyrelanne - 16 (M: 9, F: 7)<br>
+                        MS Maths 6.3 - Kuipers, Chyrelanne - 19 (M: 7, F: 12)<br>
+                        MS Maths 6.5 - Schumacher, Lynelle - 16 (M: 9, F: 7)<br>
+                        MS Maths 7.1 - Strickland, Alyssa - 12 (M: 10, F: 2)<br>
+                        MS Maths 7.5 - Strickland, Alyssa - 14 (M: 7, F: 7)<br>
+                        MS Maths 8.1 - Thompson, Douglas - 16 (M: 6, F: 10)<br>
+                        MS Maths 8.2 - Thompson, Douglas - 20 (M: 7, F: 13)<br>
+                        MS English B 8.1 - Carpenter, Gwen - 7 (M: 4, F: 3)<br>
+                        MS PHE 6.3 - Rabjohn, Sue - 19 (M: 8, F: 11)<br>
+                        MS PHE 8.4 - Hill, Oliver - 18 (M: 6, F: 12)<br>
+                        MS Science 6.1 - Cormack, Bradley - 14 (M: 8, F: 6)<br>
+                        MS Science 6.3 - Cormack, Bradley - 18 (M: 10, F: 8)<br>
+                        MS Science 6.5 - Cormack, Bradley - 20 (M: 11, F: 9)<br>
+                        MS Science 7.2 - Demirel, Holli - 11 (M: 7, F: 4)<br>
+                        MS Science 8.3 - Foster, Aaron - 12 (M: 8, F: 4)<br>
+                        MS Science 8.4 - Foster, Aaron - 16 (M: 8, F: 8)<br>
+                        MS Spanish G6 1.1 - Garza, Mariana - 18 (M: 7, F: 11)<br>
+                        MS Spanish G6 1.2 - Garza, Mariana - 19 (M: 8, F: 11)<br>
+                        MS Spanish G7/8 2A - Garza, Mariana - 20 (M: 11, F: 9)<br>
+                        MS Visual Arts 7.1 - Dimitrov, Petr - 17 (M: 11, F: 6)
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>11:40-12:35</td>
+                <td>
+                    <strong class="block-title">Block C</strong>
+                    <div class="class-list">
+                        MS Advisory 6 - A, A - 19 (M: 8, F: 11)<br>
+                        MS Design 7.2 - Martin, Matthew - 17 (M: 11, F: 6)<br>
+                        MS Design 8.3 - Black-Storm, Christian - 22 (M: 11, F: 11)<br>
+                        MS EAL 6 - Brauchli, Gabriela - 10 (M: 6, F: 4)<br>
+                        MS EAL 7 - Esshaki, Sheila - 8 (M: 3, F: 5)<br>
+                        MS French G7/8 3A - Harle, Helene - 10 (M: 6, F: 4)<br>
+                        MS French G7/8 3B - Harle, Helene - 9 (M: 3, F: 6)<br>
+                        MS German 1/2 - Mathews, William - 15 (M: 12, F: 3)<br>
+                        MS German 3 - Mathews, William - 13 (M: 5, F: 8)<br>
+                        MS German G6 - Mathews, William - 15 (M: 10, F: 5)<br>
+                        MS Individuals & Societies 6.1 - Snively, Jenny - 12 (M: 5, F: 7)<br>
+                        MS Individuals & Societies 6.2 - Riches, Jessica - 12 (M: 6, F: 6)<br>
+                        MS Individuals & Societies 6.5 - Snively, Jenny - 17 (M: 9, F: 8)<br>
+                        MS Individuals & Societies 7.2 - Wellner, John - 20 (M: 11, F: 9)<br>
+                        MS Individuals & Societies 7.4 - Wellner, John - 12 (M: 9, F: 3)<br>
+                        MS Individuals & Societies 8.1 - Hayes, Matthew - 15 (M: 8, F: 7)<br>
+                        MS Individuals & Societies 8.5 - Hayes, Matthew - 14 (M: 6, F: 8)<br>
+                        MS Language & Literature 6.1 - Snively, Jenny - 12 (M: 5, F: 7)<br>
+                        MS Language & Literature 6.2 - Riches, Jessica - 12 (M: 6, F: 6)<br>
+                        MS Language & Literature 6.3 - Snively, Jenny - 19 (M: 8, F: 11)<br>
+                        MS Language & Literature 7.1 - Little, Whitney
